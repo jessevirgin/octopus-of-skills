@@ -1,0 +1,546 @@
+body {
+    background-color: #03b4f5d0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+    line-height: 135%;
+    color: antiquewhite;  
+    } 
+    .container {
+    width: 300px;
+    height: 400px;
+    position: relative;
+    margin: 3% 35%;;
+    }
+    .octopusHead {
+    position: relative;
+    top: 50px;
+    left: 10px;
+    display: block;
+    width: 517px;
+    height: 470px;
+    background-color: #0e7298;
+    transform: rotate(-90deg);
+    border-radius: 10% 50% 50% 50% / 0% 0% 70% 70%;  
+    }
+    .first {
+    position: absolute;
+    left: 10px;
+    top: 49px;
+    z-index: 0;  
+    transform: rotate(-90deg);
+    }
+    .second {
+    position: absolute;
+    left: 27px;
+    top: 84px;
+    z-index: 0;  
+    transform: rotate(-90deg);
+    }
+    .third {
+    position: absolute;
+    left: 27px;
+    top: 119px;
+    z-index: 0;  
+    transform: rotate(-90deg);
+    }
+    .fourth {
+    position: absolute;
+    left: 30px;
+    top: 154px;
+    z-index: 0;  
+    transform: rotate(-90deg);
+    }
+    .fifth {
+    position: absolute;
+    left: 27px;
+    top: 190px;
+    z-index: 0;  
+    transform: rotate(-90deg);
+    }
+    .sixth {
+    position: absolute;
+    left: 10px;
+    top: 225px;
+    z-index: 0;  
+    transform: rotate(-90deg);
+    }
+    .seventh {
+    position: absolute;
+    left: 10px;
+    top: 261px;
+    z-index: 0;  
+    transform: rotate(-90deg);
+    }
+    .eighth {
+    position: absolute;
+    left: 10px;
+    top: 296px;
+    z-index: 0;  
+    transform: rotate(-90deg);
+    }
+    .ninth {
+    position: absolute;
+    left: 10px;
+    top: 331px;
+    z-index: 0;  
+    transform: rotate(-90deg);
+    }
+    .tenth {
+    position: absolute;
+    left: 10px;
+    top: 366px;
+    z-index: 0;  
+    transform: rotate(-90deg);
+    }
+    .eleventh {
+    position: absolute;
+    left: 10px;
+    top: 401px;
+    z-index: 0;  
+    transform: rotate(-90deg);
+    }
+    .twelfth {
+    position: absolute;
+    left: 10px;
+    top: 437px;
+    z-index: 0;  
+    transform: rotate(-90deg);
+    }
+    .thirteenth {
+    position: absolute;
+    left: 10px;
+    top: 472px;
+    z-index: 0;  
+    transform: rotate(-90deg);
+    }
+    .tentacle div {
+    font-size: 20px;
+    height: 1.2em;
+    width: 1.1em;
+    border-radius: 10% 10%;
+    background: #0e7298;
+    box-shadow: 0em -0.1em 0 #2083a7 inset, 0 0 0 0.3em #0e7298 inset;
+    position: absolute;    
+    }
+    .tentacle div div {  
+    bottom: 1em;    
+    }
+    .eye {
+    width: 5em; 
+    height: 5em; 
+    margin: 1em 1em;
+    background: rgb(0, 0, 0);
+    border-radius: 100% 0;
+    position: absolute;
+    left: 350px;
+    top: 105px;  
+    z-index: 0;  
+    transform: rotate(80deg);
+    }
+    .pupil {
+    width: 2.5em; 
+    height: 2em; 
+    margin: 1em 1em;
+    background: rgb(214, 231, 225);
+    border-radius: 100% 0;
+    position: absolute;
+    left: 391px;
+    top: 135px;  
+    z-index: 0;  
+    transform: rotate(75deg);
+    }
+    .firstText {  
+    position: absolute;
+    left: 45px;
+    top: 12px;     
+    }
+    .secondText {  
+    position: absolute;
+    left: 45px;
+    top: 47px;      
+    }
+    .thirdText {  
+      position: absolute;
+      left: 45px;
+      top: 82px;     
+    }
+    .fourthText {  
+    position: absolute;
+    left: 45px;
+    top: 117px;   
+    }
+    .fifthText {  
+    position: absolute;
+    left: 45px;
+    top: 152px;     
+    }
+    .sixthText {  
+    position: absolute;
+    left: 45px;
+    top: 187px;    
+    }
+    .seventhText {  
+    position: absolute;
+    left: 45px;
+    top: 222px;    
+    }
+    .eighthText {  
+    position: absolute;
+    left: 45px;
+    top: 257px;     
+    }
+    .ninthText {  
+    position: absolute;
+    left: 45px;
+    top: 292px;    
+    }
+    .tenthText {  
+    position: absolute;
+    left: 45px;
+    top: 327px;     
+    }
+    .eleventhText {  
+    position: absolute;
+    left: 45px;
+    top: 362px;    
+    }
+    .twelfthText {  
+    position: absolute;
+    left: 45px;
+    top: 397px;    
+    }
+    .thirteenthText {  
+    position: absolute;
+    left: 45px;
+    top: 432px;      
+    }
+    .fourteenthText {  
+    position: absolute;
+    left: 45px;
+    top: 467px;     
+    }
+    .fifteenthText {  
+    position: absolute;
+    left: 45px;
+    top: 502px;    
+    }
+    .tentacle2 div {
+    font-size: 20px;
+    height: 1.2em;
+    width: 1.1em;
+    border-radius: 10% 10%;
+    background: #fbfdfd;
+    box-shadow: 0.1em -0.1em 0 #1e7b9e inset, 0 0 0 0.1em #0e7298 inset;
+    position: absolute;    
+    background: rgba(156,2,38,1);
+    background: -moz-linear-gradient(left, rgba(156,2,38,1) 0%, rgba(126,2,31,1) 44%, rgba(97,0,23,1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(156,2,38,1)), color-stop(44%, rgba(126,2,31,1)), color-stop(100%, rgba(97,0,23,1)));
+    background: -webkit-linear-gradient(left, rgba(156,2,38,1) 0%, rgba(126,2,31,1) 44%, rgba(97,0,23,1) 100%);
+    background: -o-linear-gradient(left, rgba(156,2,38,1) 0%, rgba(126,2,31,1) 44%, rgba(97,0,23,1) 100%);
+    background: -ms-linear-gradient(left, rgba(156,2,38,1) 0%, rgba(126,2,31,1) 44%, rgba(97,0,23,1) 100%);
+    background: linear-gradient(to right, rgba(156,2,38,1) 0%, rgba(126,2,31,1) 44%, rgba(97,0,23,1) 100%);  
+    }
+    .tentacle2 div div {  
+    bottom: 1em;    
+    }
+    .tentacle3 div {
+    font-size: 20px;
+    height: 1.2em;
+    width: 1.1em;
+    border-radius: 10% 10%;
+    background: #0e7298;  
+    position: absolute; 
+    }
+    .tentacle3 div div {  
+    bottom: 1em;    
+    }
+    .plannedGrowth1 {
+    position: absolute;
+    left: -30px;
+    top: 49px;
+    z-index: -1;  
+    transform: rotate(-90deg);
+    }
+    .plannedGrowth2 {
+    position: absolute;
+    left: 10px;
+    top: 84px;
+    z-index: -1;  
+    transform: rotate(-90deg);
+    }
+    .plannedGrowth3 {
+    position: absolute;
+    left: 10px;
+    top: 119px;
+    z-index: -1;  
+    transform: rotate(-90deg);
+    }  
+    .plannedGrowth4 {
+    position: absolute;
+    left: 10px;
+    top: 154px;
+    z-index: -1;  
+    transform: rotate(-90deg);
+    }  
+    .plannedGrowth5 {
+    position: absolute;
+    left: 10px;
+    top: 190px;
+    z-index: -1;  
+    transform: rotate(-90deg);
+    } 
+    .plannedGrowth6 {
+    position: absolute;
+    left: -11px;
+    top: 225px;
+    z-index: -1;  
+    transform: rotate(-90deg);
+    }  
+    .plannedGrowth8 {
+    position: absolute;
+    left: -31px;
+    top: 296px;
+    z-index: -1;  
+    transform: rotate(-90deg);
+    } 
+    .plannedGrowth12 {
+    position: absolute;
+    left: -10px;
+    top: 437px;
+    z-index: -1;  
+    transform: rotate(-90deg);
+    } 
+    .plannedScale {
+    position: absolute;
+    left: 530px;
+    top: 510px;
+    z-index: -1;  
+    transform: rotate(-90deg);  
+    }
+    .existingScale {
+    position: absolute;
+    left: 530px;
+    top: 470px;
+    z-index: -1;  
+    transform: rotate(-90deg);
+    }
+    .existingText {
+    position: absolute;
+    left: 560px;
+    top: 428px; 
+    font-size: 15px;
+    line-height: 100%; 
+    color: #0e7298;  
+    }
+    .plannedText {  
+    position: absolute;
+    left: 560px;
+    top: 468px;
+    font-size: 15px;
+    line-height: 100%;
+    color: maroon;
+    }
+    .generalScale {
+    position: absolute;
+    left: 10px;
+    top: 15px;
+    z-index: -1;  
+    transform: rotate(-90deg);        
+    }
+    .tenPercent {
+    position: absolute;
+    left: 17px;
+    top: -19px; 
+    }
+    .twentyPercent {
+    position: absolute;
+    left: -4px;
+    top: -19px; 
+    }
+    .thirtyPercent {
+    position: absolute;
+    left: -24px;
+    top: -19px; 
+    }
+    .fortyPercent {
+    position: absolute;
+    left: -44px;
+    top: -19px; 
+    }
+    .fiftyPercent {
+    position: absolute;
+    left: -64px;
+    top: -19px; 
+    }
+    .sixtyPercent {
+    position: absolute;
+    left: -83px;
+    top: -19px; 
+    }
+    .seventyPercent {
+    position: absolute;
+    left: -103px;
+    top: -19px; 
+    }
+    .eightyPercent {
+    position: absolute;
+    left: -124px;
+    top: -19px; 
+    }
+    .ninetyPercent {
+    position: absolute;
+    left: -143px;
+    top: -19px; 
+    }
+    .hundredPercent {
+    position: absolute;
+    left: -169px;
+    top: -19px;   
+    }
+    .generalPercent {
+    position: absolute;
+    left: -189px;
+    top: -24px; 
+    font-size: 16px;
+    color: aliceblue;  
+    }
+    .percentage {
+    font-size: 12px;
+    font-family: Helvetica, 'Times New Roman', Times, serif;  
+    }
+    .tentacle4 div {    
+    position: relative;    
+    width: 22px;
+    height: 26px;
+    background-color: #0e7298;
+    transform: rotate(180deg);
+    border-radius: 10% 50% 60% 60% / 0% 0% 70% 70%;  
+    box-shadow: 0.1em -0.1em 0 #1e7b9e inset, 0 0 0 0.1em #0e7298 inset;
+    }
+    .tentacle4 div div {  
+      bottom: 1em;    
+    }
+    .tentacle5 div {     
+    font-size: 20px;
+    height: 1.2em;
+    width: 1.1em;
+    border-radius: 10% 50% 60% 60% / 0% 0% 70% 70%;  
+    background: #fbfdfd;
+    box-shadow: 0.1em -0.1em 0 #1e7b9e inset, 0 0 0 0.1em #0e7298 inset;
+    position: absolute;    
+    background: rgba(156,2,38,1);
+    background: -moz-linear-gradient(left, rgba(156,2,38,1) 0%, rgba(126,2,31,1) 44%, rgba(97,0,23,1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(156,2,38,1)), color-stop(44%, rgba(126,2,31,1)), color-stop(100%, rgba(97,0,23,1)));
+    background: -webkit-linear-gradient(left, rgba(156,2,38,1) 0%, rgba(126,2,31,1) 44%, rgba(97,0,23,1) 100%);
+    background: -o-linear-gradient(left, rgba(156,2,38,1) 0%, rgba(126,2,31,1) 44%, rgba(97,0,23,1) 100%);
+    background: -ms-linear-gradient(left, rgba(156,2,38,1) 0%, rgba(126,2,31,1) 44%, rgba(97,0,23,1) 100%);
+    background: linear-gradient(to right, rgba(156,2,38,1) 0%, rgba(126,2,31,1) 44%, rgba(97,0,23,1) 100%);  
+    } 
+    .tentacle5 div div {  
+    bottom: 1em;    
+    }
+    .end1 {
+    position: absolute;
+    left: 9px;
+    top: 519px;
+    z-index: -1;  
+    transform: rotate(-90deg);  
+    }
+    .end2 {
+    position: absolute;
+    left: 29px;
+    top: 483px;
+    z-index: -1;  
+    transform: rotate(-90deg);  
+    }
+    .end3 {
+    position: absolute;
+    left: -134px;
+    top: 448px;
+    z-index: -1;  
+    transform: rotate(-90deg);  
+    }
+    .end4 {
+    position: absolute;
+    left: -8px;
+    top: 415px;
+    z-index: -1;  
+    transform: rotate(90deg);      
+    }
+    .end5 {
+    position: absolute;
+    left: -114px;
+    top: 377px;
+    z-index: -1;  
+    transform: rotate(-90deg);      
+    }
+    .end6 {
+    position: absolute;
+    left: -90px;
+    top: 344px;
+    z-index: -1;  
+    transform: rotate(90deg);     
+    }
+    .end7 {
+    position: absolute;
+    left: -114px;
+    top: 307px;
+    z-index: 0;  
+    transform: rotate(-90deg);   
+    }
+    .end8 {
+    position: absolute;
+    left: -29px;
+    top: 274px;
+    z-index: 0;  
+    transform: rotate(90deg);   
+    }
+    .end9 {
+    position: absolute;
+    left: -114px;
+    top: 237px;
+    z-index: -1;  
+    transform: rotate(-90deg);   
+    }
+    .end10 {
+    position: absolute;
+    left: -50px;
+    top: 203px;
+    z-index: -1;  
+    transform: rotate(90deg);   
+    }
+    .end11 {
+    position: absolute;
+    left: -29px;
+    top: 168px;
+    z-index: -1;  
+    transform: rotate(90deg);   
+    }
+    .end12 {
+    position: absolute;
+    left: 11px;
+    top: 132px;
+    z-index: -1;  
+    transform: rotate(90deg);   
+    }
+    .end13 {
+    position: absolute;
+    left: -29px;
+    top: 97px;
+    z-index: -1;  
+    transform: rotate(90deg);   
+    }
+    .end14 {
+    position: absolute;
+    left: -29px;
+    top: 62px;
+    z-index: -1;  
+    transform: rotate(90deg);   
+    }
+    .end15 {
+    position: absolute;
+    left: -89px;
+    top: 27px;
+    z-index: -1;  
+    transform: rotate(90deg);   
+    }
